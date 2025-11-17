@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { TrendingUp, DollarSign, Users, MapPin, Megaphone, Laptop } from "lucide-react"
+import { TrendingUp, DollarSign, Users, MapPin, Megaphone, Laptop } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 const benefits = [
@@ -79,7 +79,7 @@ export function Benefits() {
           <div className="mt-16 text-center">
             <div className="max-w-3xl mx-auto space-y-6">
               <h3 className="text-3xl font-bold text-balance">
-                ¿Listo para comenzar tu <span className="text-accent">imperio de la moda</span>?
+                ¿Listo para convertirte en el próximo <span className="text-accent">franquiciado ModaShop</span>?
               </h3>
               <p className="text-lg text-muted-foreground">
                 Completá el formulario y te contactaremos para brindarte toda la información sobre las franquicias

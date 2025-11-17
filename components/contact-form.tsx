@@ -63,7 +63,7 @@ export function ContactForm() {
               </div>
             </div>
             <h2 className="text-5xl md:text-6xl font-bold mb-6 text-balance animate-fade-in-up">
-              ¿Listo para <span className="text-accent">Emprender</span>?
+              ¿Listo para convertirte en el próximo <span className="text-accent">franquiciado ModaShop</span>?
             </h2>
             <p
               className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-in-up"

@@ -5,12 +5,12 @@ import Image from "next/image"
 export function Stores() {
   const stores = [
     {
-      image: "/store-exterior.png",
+      image: "/store-exterior.jpg",
       title: "Ubicaciones estratégicas",
       description: "En los mejores centros comerciales",
     },
     {
-      image: "/store-interior-1.png",
+      image: "/store-interior-1.jpg",
       title: "Diseño contemporáneo",
       description: "Espacios que inspiran",
     },

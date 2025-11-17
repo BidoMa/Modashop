@@ -9,22 +9,19 @@ export function History() {
 
           <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
             <p>
-              ModaShop es una empresa argentina con más de dos décadas de trayectoria en el rubro de accesorios de moda,
-              marroquinería y regalería.
+              ModaShop es una empresa argentina con más de dos décadas de trayectoria en accesorios de moda y novedades.
             </p>
 
             <p>
-              Nacimos en 2005 con la misión de ofrecer una experiencia única de compra, combinando variedad, calidad y
-              precios competitivos.
+              Desde 2005 crecemos con un modelo ágil, dinámico y siempre actualizado con las tendencias del mercado.
             </p>
 
             <p>
-              Hoy contamos con más de 60 franquicias en todo el país, un stock en constante renovación y una sólida
-              estructura que garantiza rentabilidad y acompañamiento permanente a nuestros franquiciados.
+              Hoy contamos con más de 60 franquicias en todo el país, un stock que se renueva constantemente y una estructura sólida que garantiza acompañamiento y rentabilidad.
             </p>
 
             <p className="text-foreground font-medium">
-              Cada local ModaShop refleja nuestro compromiso con la moda, la innovación y la cercanía con el cliente.
+              Cada local ModaShop refleja nuestro espíritu: moda, innovación y cercanía con las personas.
             </p>
           </div>
         </div>

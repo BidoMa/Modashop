@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Briefcase, Sparkles, Shirt, BookOpen, Palette, Gift } from "lucide-react"
+import { Briefcase, Sparkles, Shirt, BookOpen, Palette, Gift } from 'lucide-react'
 
 const products = [
   {
@@ -19,7 +19,7 @@ const products = [
   },
   {
     icon: BookOpen,
-    name: "Artículos escolares",
+    name: "Escolares y Bazar",
     description: "Mochilas, cartucheras y útiles",
   },
   {

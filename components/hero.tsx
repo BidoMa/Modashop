@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Store, Package, TrendingUp } from "lucide-react"
+import { ArrowRight, Store, Package, TrendingUp } from 'lucide-react'
 import Image from "next/image"
 
 export function Hero() {
@@ -53,16 +53,16 @@ export function Hero() {
             {/* Left: Main content */}
             <div className="space-y-12 opacity-0 animate-slide-in-left delay-200">
               <div className="space-y-8">
-                <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight text-balance">
-                  Construí tu{" "}
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight text-balance">
+                  Descubrí la franquicia ModaShop:{" "}
                   <span className="relative inline-block">
-                    <span className="relative z-10 text-accent">imperio</span>
+                    <span className="relative z-10 text-accent">Tendencias, estilo y rentabilidad</span>
                     <span
                       className="absolute bottom-2 left-0 w-full h-4 bg-accent/20 blur-sm -z-0"
                       aria-hidden="true"
                     />
                   </span>{" "}
-                  de la moda
+                  en un solo lugar
                 </h1>
 
                 <div className="space-y-4">
@@ -82,9 +82,9 @@ export function Hero() {
                   size="lg"
                   className="bg-accent text-white hover:bg-accent/90 text-lg px-8 py-7 rounded-xl group shadow-xl shadow-accent/20 hover:shadow-2xl hover:shadow-accent/30 transition-all duration-300 border-0"
                   onClick={() => scrollToSection("contact")}
-                  aria-label="Comenzar a solicitar información sobre la franquicia"
+                  aria-label="Solicitar más información sobre la franquicia"
                 >
-                  Comenzar ahora
+                  Quiero más información
                   <ArrowRight
                     className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300"
                     aria-hidden="true"

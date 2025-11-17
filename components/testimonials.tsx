@@ -1,20 +1,20 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Quote } from "lucide-react"
+import { Quote } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 const testimonials = [
   {
-    quote:
-      "Abrir una franquicia ModaShop fue una de las mejores decisiones que tomé. El apoyo del equipo y la variedad de productos hacen que el negocio crezca día a día.",
-    author: "Laura G.",
-    location: "Franquiciada en Córdoba",
+    quote: "Es un rubro que puede funcionar en cualquier lugar donde decidan abrirlo",
+    author: "Susana y Patricia",
+    location: "ModaShop Córdoba",
   },
   {
-    quote: "ModaShop no es solo un local, es una experiencia. Los clientes aman venir a descubrir siempre algo nuevo.",
-    author: "Pablo M.",
-    location: "Franquiciado en San Juan",
+    quote:
+      "El equipo de ModaShop, siempre me brindó confianza para que pueda lograr mi deseo que era tener mi propio negocio",
+    author: "Juliana",
+    location: "ModaShop Portal Rosario",
   },
 ]
 
