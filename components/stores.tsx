@@ -15,12 +15,12 @@ export function Stores() {
       description: "Espacios que inspiran",
     },
     {
-      image: "/store-interior-2.png",
+      image: "/store-interior-2.jpg",
       title: "Exhibición premium",
       description: "Productos organizados con estilo",
     },
     {
-      image: "/store-interior-3.png",
+      image: "/store-interior-3.jpg",
       title: "Ambiente moderno",
       description: "Experiencia de compra única",
     },

@@ -1,34 +1,41 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Briefcase, Sparkles, Shirt, BookOpen, Palette, Gift } from 'lucide-react'
+import { BookOpen, Gift } from "lucide-react"
+import Image from "next/image"
 
 const products = [
   {
-    icon: Briefcase,
+    icon: "/icons/bag.png",
+    isImage: true,
     name: "Marroquinería",
     description: "Carteras, billeteras y accesorios de cuero",
   },
   {
-    icon: Sparkles,
+    icon: "/icons/earring.png",
+    isImage: true,
     name: "Bijouterie",
     description: "Collares, pulseras, aros y anillos",
   },
   {
-    icon: Shirt,
+    icon: "/icons/snapback.png",
+    isImage: true,
     name: "Accesorios de temporada",
     description: "Bufandas, gorros, guantes y más",
   },
   {
     icon: BookOpen,
+    isImage: false,
     name: "Escolares y Bazar",
     description: "Mochilas, cartucheras y útiles",
   },
   {
-    icon: Palette,
+    icon: "/icons/cosmetics.png",
+    isImage: true,
     name: "Cosmética",
     description: "Maquillaje, perfumes y cuidado personal",
   },
   {
     icon: Gift,
+    isImage: false,
     name: "Regalería",
     description: "Ideas perfectas para toda ocasión",
   },
@@ -72,7 +79,17 @@ export function Products() {
                 <CardContent className="p-8">
                   <div className="flex items-start gap-4 mb-4">
                     <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center group-hover:from-accent/30 group-hover:to-accent/10 transition-all flex-shrink-0">
-                      <product.icon className="w-7 h-7 text-accent" />
+                      {product.isImage ? (
+                        <Image
+                          src={(product.icon as string) || "/placeholder.svg"}
+                          alt={product.name}
+                          width={28}
+                          height={28}
+                          className="opacity-80 group-hover:opacity-100 transition-opacity"
+                        />
+                      ) : (
+                        <product.icon className="w-7 h-7 text-foreground" />
+                      )}
                     </div>
                     <div className="flex-1">
                       <h3 className="font-bold text-xl mb-2 group-hover:text-accent transition-colors">
