@@ -16,18 +16,19 @@
   --secondary-foreground: oklch(0.145 0 0);
   --muted: oklch(0.96 0 0);
   --muted-foreground: oklch(0.5 0 0);
-  /* Updated magenta to exact brand color #ea008d */
-  --accent: oklch(0.55 0.27 335); /* ModaShop Magenta #ea008d */
+  /* Updated accent color to new OKLCH value */
+  --accent: oklch(0.63 0.25 17);
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.92 0 0);
   --input: oklch(0.92 0 0);
-  --ring: oklch(0.55 0.27 335);
-  --chart-1: oklch(0.55 0.27 335);
+  /* Updated ring to match new accent */
+  --ring: oklch(0.63 0.25 17);
+  --chart-1: oklch(0.63 0.25 17);
   --chart-2: oklch(0.145 0 0);
   --chart-3: oklch(0.5 0 0);
-  --chart-4: oklch(0.65 0.22 335);
+  --chart-4: oklch(0.73 0.2 17);
   --chart-5: oklch(0.3 0 0);
   --radius: 0.5rem;
   --sidebar: oklch(0.985 0 0);
@@ -53,15 +54,15 @@
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
-  /* Updated dark mode accent to exact brand color */
-  --accent: oklch(0.55 0.27 335);
+  /* Updated dark mode accent to new OKLCH value */
+  --accent: oklch(0.63 0.25 17);
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.269 0 0);
   --input: oklch(0.269 0 0);
-  --ring: oklch(0.55 0.27 335);
-  --chart-1: oklch(0.55 0.27 335);
+  --ring: oklch(0.63 0.25 17);
+  --chart-1: oklch(0.63 0.25 17);
   --chart-2: oklch(0.985 0 0);
   --chart-3: oklch(0.5 0 0);
   --chart-4: oklch(0.65 0.22 335);
